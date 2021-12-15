@@ -1,0 +1,241 @@
+
+@media(max-width: 991px){
+
+.menu-item{
+  display: none;
+}
+.mobile-menu{
+  display: block;
+  position: relative;
+}
+.menu-icon{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+i.fa-align-center{
+  font-size: 30px;
+  background: rgba(255, 0, 0, 0.918);
+  color: aliceblue;
+  padding: 10px;
+}
+i.fa-times{
+  font-size: 30px;
+  background: rgb(92, 91, 91);
+  color: red;
+  padding: 10px;
+  display: none;
+}
+.all-menu{
+  position: absolute;
+  top: 100px;
+  left: -450px;
+  background: rgb(1, 7, 56);
+  padding: 20px;
+  width: 323px;
+  height: 590px;
+  z-index: 1;
+}
+.all-menu ul{
+  margin-top: 100px;
+  margin-left: -50px;
+}
+.all-menu ul li a{
+  color: white;
+  display: block;
+  margin: 20px 0;
+  font-size: 23px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+  padding: 2px 10px;
+}
+.all-menu ul li a:hover{
+  background-color: rgba(135, 207, 235, 0.335);
+}
+
+
+
+
+}
+
+
+
+@media(max-width: 769px){
+
+
+
+
+/* =============
+04 - About area
+================*/
+
+.background-img{
+  height: 120vh;
+  background-size: cover;
+  position: relative;
+}
+
+.order-card{
+  margin-left: 15%;
+}
+.food{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+
+.all-menu{
+  height: 990px;
+}
+
+
+/* Food Area */
+
+.food-icon{
+  margin-left: 20px;
+}
+.food-icon-2{
+  margin-left: -2%;
+}
+
+
+
+}
+
+
+
+@media(max-width: 415px){
+
+
+/* Top menu */
+
+.top-menu{
+  height: 100px;
+}
+
+/* Mobile MEnu */
+.all-menu{
+  top: 50px;
+}
+
+/* card */
+
+.order-card{
+  margin-left: 20px;
+  width: 340px;
+  height: 250px;
+}
+.order-card h3{
+  font-size: 24px;
+}
+.order-card p{
+  font-size: 14px;
+}
+.order-card button{
+  width: 135px;
+  height: 50px;
+  font-size: 17px;
+}
+.food{
+  top: 50%;
+  left: 13%;
+}
+.food img{
+  width: 300px;
+}
+
+
+/* food menu */
+.menu-title h1{
+  color: #535353;
+  font-weight: 320;
+  font-size: 40px;
+}
+.food-menu-item{
+  height: 400vh;
+}
+
+
+/* Slider area */
+
+.special-item-background{
+  height: 100vh;
+}
+.hot-1{
+  width: 100%;
+}
+.hot-2{
+  width: 100%;
+}
+.hot-3{
+  width: 100%;
+}
+.hot-4{
+  width: 100%;
+}
+.hot-5{
+  width: 100%;
+}
+.hot-6{
+  width: 100%;
+}
+.hot-7{
+  width: 100%;
+}
+
+
+
+}
+
+
+@media(max-width: 376px){
+
+/* card */
+
+.order-card{
+  margin-left: 0px;
+  width: 340px;
+  height: 300px;
+}
+
+
+
+}
+
+
+@media(max-width: 376px){
+
+  /* Top menu */
+
+.top-menu{
+  width: 90%;
+}
+  /* card */
+  
+  .order-card{
+    width: 290px;
+  }
+  
+  /* food */
+  .food{
+    top: 55%;
+  }
+  .food img{
+    width: 200px;
+  }
+  .menu-title h1{
+    font-size: 25px;
+  }
+
+  .food-menu-item{
+    height: 500vh;
+  }
+
+  .special-item-background{
+    height: 150vh;
+  }
+
+
+  }
+
+  
